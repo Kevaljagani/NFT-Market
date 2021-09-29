@@ -1,15 +1,9 @@
 import styles from '../styles/Home.module.css'
-import Link from 'net/link'
 
-function MyApp({ Component, pageProps}) {
+export default function Home() {
   return (
-  <div>
-      <nav className="border-b p-6">
-        
-      </nav>
-    return <Component {...pageProps}/>
-  </div>
+    <div className={styles.container}>
+      <h1>Hello</h1>
+    </div>
   )
 }
-
-export default MyApp
